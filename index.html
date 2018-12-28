@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>titre</title>
+</head>
+<body>
+<div class="container-form">
+<a href="#lien" > Lien</a>
+<form action=… …>
+  <h3>Petit formulaire</h3>
+  <div>
+   <div id="erreur">
+    <!--   <p>Vous n'avez pas rempli correctement les champs du formulaire !</p>  -->
+   </div>
+   <label for="pseudo">Pseudonyme</label> 
+   <input type="text" id="pseudo" class="champ" /><br /><br />
+   <label for="mdp">Mot de passe</label>
+   <input type="password" id="mdp" class="champ" /><br /><br />
+   <label for="confirmation">Confirmation</label>
+   <input type="password" id="confirmation" class="champ" /><br /><br />
+   <label for="mail">E-mail</label>
+   <input type="text" id="mail" class="champ" /><br /><br />
+   <input type="submit" id="envoi" value="Envoyer" onclick="return verifier();" />
+   <!--
+   <input type="submit" id="envoi" value="Envoyer" />
+   -->
+   <input type="reset" id="rafraichir" value="Rafraîchir" />   
+  </div>
+</form>
+</div>
+<hr>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div class="red">text</div>	
+<div id="lien" class="blocReponse">
+   <p class="question">Comment faire un lien ?</p>
+   <p class="reponse">La réponse à la question...</p>
+	</div>
+
+<script type="text/javascript" src="js/form.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="formTest.js"></script>
+</body>
+</html>

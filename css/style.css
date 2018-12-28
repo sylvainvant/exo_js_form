@@ -1,0 +1,38 @@
+.container-form  { 
+	border-color: #red;
+	border-radius: 10px 10px 10px 10px;
+	background-color:#F2F2F2;
+	width: 40%;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	margin: auto;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+h1{
+	background-color: grey;	
+}
+.label{
+	border-color: grey;
+	border-radius: 10px 10px 10px 10px;
+}
+#erreur
+{
+	border-color: grey;
+	border-radius: 10px 10px 10px 10px;
+	background-color: red;
+}
+
+.red { 
+       animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+    background-color: #FE642E;
+    width: 250px;
+  }
+ p{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+ }
+
